@@ -7,7 +7,7 @@ int addition(int nb1 , int nb2){
 }
 
 void afficher(){
-    char * p = "test" ;
-    
+    char * p = "Test" ;
+
     printf("%s\n",p);
 }
