@@ -1,6 +1,7 @@
 del /s %1.exe
 del /s *.o
 
+
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o %2.o %2.c
 IF [%3]==[] echo  else gcc -O0 -g3 -Wall -c -fmessage-length=0 -o %3.o %3.c
 IF [%4]==[] echo  else gcc -O0 -g3 -Wall -c -fmessage-length=0 -o %4.o %4.c
